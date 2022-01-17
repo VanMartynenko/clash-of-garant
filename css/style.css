@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #222222;
+    color: #E1E1E1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+a{
+    color: #E1E1E1;
+    text-decoration: none;
+}
+.logo{
+    text-align: center;
+    padding: 8px 0px;
+    background: #181818;
+    justify-content: center;
+    width: 360px;
+    margin: 0 auto;
+}
+.banner{
+    background: url(../img/background.png) no-repeat center;
+    background-color: #181818;
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.download{
+    text-align: end;
+    padding-top: 11px;
+}
+.banner-logo{
+    padding-top: 27px;
+    padding-bottom: 56px;
+}
+.btn a{
+    font-weight: 700;
+    font-size: 25px;
+    width: 100px;
+    padding: 12px 45px;
+    background: #804FB3;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.btn{
+    padding-bottom: 65px;
+}
+.btn a:hover{
+    background: #593085;
+    transition: 0.5s linear;
+}
+.warning{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    max-width: 360px;
+    margin: 0 auto;
+    padding-top: 52px;
+    padding-bottom: 36px;
+    background: #181818;
+}
+.warning-img{
+    padding: 0px 57.5px 5px 57.5px;
+    background: #222222;
+    border-radius: 5px 5px 0px 0px;
+}
+.warning-img img{
+    margin-top: -24px;
+}
+.warning p{
+    width: 310px;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 15px 20px 15px;
+    background: #222222;
+    border-radius: 0px 0px 5px 5px;
+}
+.sell-main{
+    max-width: 360px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: url(../img/bg-2.png) no-repeat center;
+    padding-bottom: 115px;
+}
+h1{
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 65px;
+    padding-bottom: 37px;
+}
+.sell-main p{
+    width: 310px;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+.help-info{
+    max-width: 360px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+h2{
+    font-size: 15px;
+    padding: 20px 0px;
+}
+.help-info p{
+    width: 310px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.download{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.footer-main{
+    background: #181818;
+    padding: 15px;  
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+}
+h3{
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.sell-information{
+    background: #181818;
+}
+.sell-information-main{
+    max-width: 360px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.information-slot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 264px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 11px 48px;
+    width: 60px;
+    text-align: center;
+}
+.vertical-line{
+    border-left: 1px solid #000;
+    height: 41.8px;
+    margin: 0;
+}
+.enter{
+    background: #464646;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.information-slot img{
+    background: #464646;
+    padding: 8px;
+    border-radius: 5px 0px 0px 5px;
+}
+#slot-tower img{
+    padding: 2.2px;
+}
+#slot-cash img{
+    padding: 7.7px;
+}
+.write-info{
+    padding: 70px 85px;
+    background: #464646;
+    width: 82px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: 700;
+    font-size: 16px;
+}
+button{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.2);
+    background: #464646;
+    padding: 18px 27px;
+    border: none;
+    border-radius: 5px;
+    width: 136px;
+    margin-top: 70px;
+    margin-bottom: 140px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+button:hover{
+    background: linear-gradient(92.78deg, #FF0000 2.02%, #282828 101.64%);
+    transition: 0.3s linear;
+    color: #E1E1E1;
+}
